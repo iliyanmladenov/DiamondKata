@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385880F628F86C720046AED2 /* DiamondKataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385880F528F86C720046AED2 /* DiamondKataApp.swift */; };
+		385880F828F86C720046AED2 /* DiamondKataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385880F728F86C720046AED2 /* DiamondKataView.swift */; };
+		385880FA28F86C740046AED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385880F928F86C740046AED2 /* Assets.xcassets */; };
+		385880FD28F86C740046AED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385880FC28F86C740046AED2 /* Preview Assets.xcassets */; };
+		3858810728F86C740046AED2 /* DiamondKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858810628F86C740046AED2 /* DiamondKataTests.swift */; };
+		3858811128F86C750046AED2 /* DiamondKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858811028F86C750046AED2 /* DiamondKataUITests.swift */; };
+		3858812228F86F840046AED2 /* DiamondKataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858812128F86F840046AED2 /* DiamondKataViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3858810328F86C740046AED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385880EA28F86C720046AED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385880F128F86C720046AED2;
+			remoteInfo = "Diamond Kata";
+		};
+		3858810D28F86C750046AED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385880EA28F86C720046AED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385880F128F86C720046AED2;
+			remoteInfo = "Diamond Kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		385880F228F86C720046AED2 /* DiamondKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamondKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		385880F528F86C720046AED2 /* DiamondKataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondKataApp.swift; sourceTree = "<group>"; };
+		385880F728F86C720046AED2 /* DiamondKataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondKataView.swift; sourceTree = "<group>"; };
+		385880F928F86C740046AED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		385880FC28F86C740046AED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3858810228F86C740046AED2 /* DiamondKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamondKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3858810628F86C740046AED2 /* DiamondKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondKataTests.swift; sourceTree = "<group>"; };
+		3858810C28F86C740046AED2 /* DiamondKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamondKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3858811028F86C750046AED2 /* DiamondKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondKataUITests.swift; sourceTree = "<group>"; };
+		3858812128F86F840046AED2 /* DiamondKataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondKataViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385880EF28F86C720046AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385880FF28F86C740046AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858810928F86C740046AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385880E928F86C720046AED2 = {
+			isa = PBXGroup;
+			children = (
+				385880F428F86C720046AED2 /* Diamond Kata */,
+				3858810528F86C740046AED2 /* DiamondKataTests */,
+				3858810F28F86C750046AED2 /* DiamondKataUITests */,
+				385880F328F86C720046AED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385880F328F86C720046AED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385880F228F86C720046AED2 /* DiamondKata.app */,
+				3858810228F86C740046AED2 /* DiamondKataTests.xctest */,
+				3858810C28F86C740046AED2 /* DiamondKataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385880F428F86C720046AED2 /* Diamond Kata */ = {
+			isa = PBXGroup;
+			children = (
+				3858812028F86F760046AED2 /* View */,
+				3858811F28F86F710046AED2 /* ViewModel */,
+				385880F528F86C720046AED2 /* DiamondKataApp.swift */,
+				385880F928F86C740046AED2 /* Assets.xcassets */,
+				385880FB28F86C740046AED2 /* Preview Content */,
+			);
+			path = "Diamond Kata";
+			sourceTree = "<group>";
+		};
+		385880FB28F86C740046AED2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				385880FC28F86C740046AED2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3858810528F86C740046AED2 /* DiamondKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				3858810628F86C740046AED2 /* DiamondKataTests.swift */,
+			);
+			path = DiamondKataTests;
+			sourceTree = "<group>";
+		};
+		3858810F28F86C750046AED2 /* DiamondKataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3858811028F86C750046AED2 /* DiamondKataUITests.swift */,
+			);
+			path = DiamondKataUITests;
+			sourceTree = "<group>";
+		};
+		3858811F28F86F710046AED2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3858812128F86F840046AED2 /* DiamondKataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3858812028F86F760046AED2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				385880F728F86C720046AED2 /* DiamondKataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385880F128F86C720046AED2 /* DiamondKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3858811628F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKata" */;
+			buildPhases = (
+				385880EE28F86C720046AED2 /* Sources */,
+				385880EF28F86C720046AED2 /* Frameworks */,
+				385880F028F86C720046AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiamondKata;
+			productName = "Diamond Kata";
+			productReference = 385880F228F86C720046AED2 /* DiamondKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3858810128F86C740046AED2 /* DiamondKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3858811928F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKataTests" */;
+			buildPhases = (
+				385880FE28F86C740046AED2 /* Sources */,
+				385880FF28F86C740046AED2 /* Frameworks */,
+				3858810028F86C740046AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3858810428F86C740046AED2 /* PBXTargetDependency */,
+			);
+			name = DiamondKataTests;
+			productName = "Diamond KataTests";
+			productReference = 3858810228F86C740046AED2 /* DiamondKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3858810B28F86C740046AED2 /* DiamondKataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3858811C28F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKataUITests" */;
+			buildPhases = (
+				3858810828F86C740046AED2 /* Sources */,
+				3858810928F86C740046AED2 /* Frameworks */,
+				3858810A28F86C740046AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3858810E28F86C750046AED2 /* PBXTargetDependency */,
+			);
+			name = DiamondKataUITests;
+			productName = "Diamond KataUITests";
+			productReference = 3858810C28F86C740046AED2 /* DiamondKataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385880EA28F86C720046AED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					385880F128F86C720046AED2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3858810128F86C740046AED2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 385880F128F86C720046AED2;
+					};
+					3858810B28F86C740046AED2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 385880F128F86C720046AED2;
+					};
+				};
+			};
+			buildConfigurationList = 385880ED28F86C720046AED2 /* Build configuration list for PBXProject "DiamondKata" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385880E928F86C720046AED2;
+			productRefGroup = 385880F328F86C720046AED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385880F128F86C720046AED2 /* DiamondKata */,
+				3858810128F86C740046AED2 /* DiamondKataTests */,
+				3858810B28F86C740046AED2 /* DiamondKataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385880F028F86C720046AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385880FD28F86C740046AED2 /* Preview Assets.xcassets in Resources */,
+				385880FA28F86C740046AED2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858810028F86C740046AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858810A28F86C740046AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385880EE28F86C720046AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3858812228F86F840046AED2 /* DiamondKataViewModel.swift in Sources */,
+				385880F828F86C720046AED2 /* DiamondKataView.swift in Sources */,
+				385880F628F86C720046AED2 /* DiamondKataApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385880FE28F86C740046AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3858810728F86C740046AED2 /* DiamondKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3858810828F86C740046AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3858811128F86C750046AED2 /* DiamondKataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3858810428F86C740046AED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385880F128F86C720046AED2 /* DiamondKata */;
+			targetProxy = 3858810328F86C740046AED2 /* PBXContainerItemProxy */;
+		};
+		3858810E28F86C750046AED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385880F128F86C720046AED2 /* DiamondKata */;
+			targetProxy = 3858810D28F86C750046AED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3858811428F86C750046AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3858811528F86C750046AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3858811728F86C750046AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diamond Kata/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WL7423257;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliyanMladenov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3858811828F86C750046AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diamond Kata/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WL7423257;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliyanMladenov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3858811A28F86C750046AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDKULPPUJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iliyanMladenov.Diamond-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiamondKata.app/DiamondKata";
+			};
+			name = Debug;
+		};
+		3858811B28F86C750046AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDKULPPUJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iliyanMladenov.Diamond-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiamondKata.app/DiamondKata";
+			};
+			name = Release;
+		};
+		3858811D28F86C750046AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDKULPPUJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iliyanMladenov.Diamond-KataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiamondKata;
+			};
+			name = Debug;
+		};
+		3858811E28F86C750046AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDKULPPUJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iliyanMladenov.Diamond-KataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiamondKata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385880ED28F86C720046AED2 /* Build configuration list for PBXProject "DiamondKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858811428F86C750046AED2 /* Debug */,
+				3858811528F86C750046AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3858811628F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858811728F86C750046AED2 /* Debug */,
+				3858811828F86C750046AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3858811928F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858811A28F86C750046AED2 /* Debug */,
+				3858811B28F86C750046AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3858811C28F86C750046AED2 /* Build configuration list for PBXNativeTarget "DiamondKataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3858811D28F86C750046AED2 /* Debug */,
+				3858811E28F86C750046AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385880EA28F86C720046AED2 /* Project object */;
+}
